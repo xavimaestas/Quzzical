@@ -5,4 +5,59 @@
   text-align: center;
 }
 
+.action_btn {
+  background-color: #4D5B9E;
+  padding: 1rem 2rem; 
+  border-style: none;
+  border-radius: 15px;
+}
+
+
+
+/* Start */
+
+.main_start_container {
+
+  border: 1px solid black;
+
+}
+
+/* Quiz */
+
+.main_quiz_container {
+
+  border: 1px solid white; 
+  margin-top: 1rem;
+
+}
+
+/* Answers */
+
+.main_answers_container {
+
+  border: 1px solid red; 
+  margin-top: 1rem;
+
+}
+
+/* QA */
+
+.answers_container {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.answer_bubble {
+  color: #4D5B9E; 
+  border: 1px solid #4D5B9E;
+  border-radius: 7px; 
+  height: 1.5rem; 
+  width: 5rem; 
+  
+}
+
+.answer_bubble:hover {
+  background: #D6DBF5;
+}
+
 
